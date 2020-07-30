@@ -4,7 +4,7 @@ Project for ecological purposes, serving as a map (connection) between companies
 
 This project uses Node.js, ReactJS, ReactNative and TypeScript, and it was developed during the NLW #1 of the [RocketSeat](https://rocketseat.com.br/) team.
 
-!img ......................
+![](https://github.com/Henrickqt/ecoleta/blob/master/assets/screenshot/web/1-home.jpg)
 
 ## Server (Backend)
 
@@ -20,10 +20,10 @@ This API REST was created using the following technologies:
 ### Run
 Run `npm run dev` to start the server, alias for `npx ts-node-dev src/server.ts`.
 
-### Running Migrations
+### Run Migrations
 Run `npm knex:migrate` to run the migrations, alias for `npx knex --knexfile knexfile.ts migrate:latest`.
 
-### Running Seeds
+### Run Seeds
 Run `knex:seed` to run the seeds, alias for `npx knex --knexfile knexfile.ts seed:run`.
 
 ## Web (Frontend)
